@@ -10,4 +10,6 @@ public interface LoginService {
 
 	String addNewUser(Login login);
 
+//	String updateUserDetails(Login login);
+
 }

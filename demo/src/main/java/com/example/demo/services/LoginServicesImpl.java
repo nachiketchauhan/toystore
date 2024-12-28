@@ -27,4 +27,18 @@ public class LoginServicesImpl implements LoginService {
 		return loginRepo.save(login).equals(null)?"Added successfully":"Fail to add User Detail";
 	}
 
+
+//	@Override
+//	public String updateUserDetails(Login login) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+
+
+//	@Override
+//	public String updateUserDetails(Login login) {
+//		
+//		return loginRepo.update;
+//	}
+
 }
