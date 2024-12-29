@@ -10,6 +10,12 @@ public interface LoginService {
 
 	String addNewUser(Login login);
 
+	String updateUserDetails(Login login);
+
+	void deleteUserDetails(Long userid);
+
 //	String updateUserDetails(Login login);
+
+
 
 }
